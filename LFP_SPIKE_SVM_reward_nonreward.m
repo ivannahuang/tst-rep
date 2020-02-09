@@ -1,5 +1,6 @@
 clc;clear;
 %% load data
+% let's test the version management
 addpath(genpath(pwd));
 load('rat009_0625_mpfc_spike.mat')
 load('D:\OneDrive - HKUST Connect\DATA\rat090625\mPFC\FilteredFP_mPFC_0625_rat09.mat', 'bdLFP19')
