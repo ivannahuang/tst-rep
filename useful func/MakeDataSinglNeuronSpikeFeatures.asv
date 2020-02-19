@@ -1,9 +1,0 @@
-function  [y_spike, y_smspike] ...
-    =  MakeDataSinglNeuronSpikeFeatures(spike,t1,t2,smoothwidth)
-
-% 
-y_spike = spike(t1:t2,1);
-
-
-% smoothversion
-y_smspike = smoothdata(y_spike,'gaussian',smoothwidth);
